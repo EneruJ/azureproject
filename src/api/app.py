@@ -1,26 +1,21 @@
-from flask import Flask, jsonify
-from azure.cosmos import CosmosClient
+from flask import Flask, render_template
+from pymongo import MongoClient
+import os
 
 app = Flask(__name__)
 
-url = 'YOUR_COSMOS_DB_URL'  # Remplacez par votre URL
-key = 'YOUR_COSMOS_DB_KEY'  # Remplacez par votre clé
-database_name = 'YOUR_DATABASE_NAME'
-container_name = 'YOUR_CONTAINER_NAME'
-client = CosmosClient(url, credential=key)
-database = client.get_database_client(database_name)
-container = database.get_container_client(container_name)
+# Configuration de la base de données
+connection_str = "mongodb://azprojdb:P4VfpgpN5ggdPc3fJEuzSm3vOxYU6U2hNCi6edieJP4lCGGlJ5k7HONGdXbWkrNQgKiu6qhwjc4QACDbpkNDYQ==@azprojdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@azprojdb@"
+client = MongoClient(connection_str)
+db = client.WeatherDB
+container = db.WeatherData
 
-@app.route('/data', methods=['GET'])
-def get_data():
-    data = list(container.query_items(
-        query="SELECT * FROM c ORDER BY c._ts DESC",
-        enable_cross_partition_query=True
-    ))
-    if data:
-        return jsonify(data[0])
-    else:
-        return jsonify({"error": "Data not found!"}), 404
+@app.route('/')
+def index():
+    # Récupération de toutes les données
+    all_data = list(container.find({}))
+    
+    return render_template('index.html', data=all_data)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
