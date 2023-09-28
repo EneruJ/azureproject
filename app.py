@@ -2,7 +2,7 @@ from flask import Flask, render_template
 from pymongo import MongoClient
 import os
 
-app = Flask(__name__, template_folder='../../templates')
+app = Flask(__name__)
 
 # Configuration de la base de données
 connection_str = "mongodb://azprojdb:P4VfpgpN5ggdPc3fJEuzSm3vOxYU6U2hNCi6edieJP4lCGGlJ5k7HONGdXbWkrNQgKiu6qhwjc4QACDbpkNDYQ==@azprojdb.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@azprojdb@"
@@ -18,4 +18,4 @@ def index():
     return render_template('index.html', data=all_data)
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
+    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
