@@ -18,7 +18,7 @@ a. Choix du Framework : Flask a été choisi pour son caractère léger et sa fl
 
 b. Points d'accès API : Plusieurs endpoints ont été créés pour permettre aux utilisateurs d'interagir avec l'API. Parmi ces endpoints, nous avons notamment un pour récupérer toutes les données et un autre pour récupérer des données spécifiques.
 
-c. Modèle de Données : Un modèle de données a été conçu pour stocker et organiser les informations environnementales. Cela a facilité le traitement et l'extraction des données.
+c. Modèle de Données : Un modèle de données CosmosDB a été conçu pour stocker et organiser les informations environnementales. Cela a facilité le traitement et l'extraction des données.
 
 d. Extraction des Données : Des méthodes ont été mises en place pour extraire des données de diverses sources environnementales, les traiter et les rendre disponibles via l'API.
 
