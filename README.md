@@ -9,9 +9,7 @@ Notre solution est une API qui recueille, traite et fournit des données environ
 
 ## Architecture
 <br>
-![archiazproj drawio](https://github.com/EneruJ/azureproject/assets/62664268/4169c775-4911-4b3f-8e3c-a69980f07c8c)
-
-
+![image](https://github.com/EneruJ/azureproject/assets/62664268/f0e1bc80-dd86-46d0-81d5-7dc07fe31ee2)
 
 ## Étapes d'Implémentation
 ### 1. Configuration initiale
