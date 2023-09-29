@@ -9,8 +9,8 @@ Notre solution est une API qui recueille, traite et fournit des données environ
 
 ## Architecture
 <br>
-![image](https://github.com/EneruJ/azureproject/assets/62664268/f0e1bc80-dd86-46d0-81d5-7dc07fe31ee2)
-
+<img width="789" alt="image" src="https://github.com/EneruJ/azureproject/assets/62664268/f0e1bc80-dd86-46d0-81d5-7dc07fe31ee2">
+<br>
 ## Étapes d'Implémentation
 ### 1. Configuration initiale
 a. Environnement Azure : Avant tout développement, un environnement Azure a été configuré pour permettre le déploiement et la mise en œuvre des services.
