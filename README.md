@@ -48,5 +48,6 @@ Capture d'écran de l'API en action :
 <br>
 <img width="789" alt="image" src="https://github.com/EneruJ/azureproject/assets/62664268/400921f4-1ce4-42c5-b607-7b5f8cd56af9"><br>
 Lien actif vers l'API : https://azprojweather.azurewebsites.net/
+Lien de la documentation : https://azprojdoc.blob.core.windows.net/doc/Documentation du Système de Surveillance Environnementale pour Jardins Urbains.pdf
 
 
