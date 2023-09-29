@@ -7,6 +7,12 @@ Les jardins urbains gagnent en popularité, mais leur maintenance requiert une c
 ## Solution
 Notre solution est une API qui recueille, traite et fournit des données environnementales essentielles pour les jardins urbains. Ces données peuvent être utilisées par les jardiniers, les chercheurs et les décideurs pour optimiser la croissance des plantes, surveiller l'impact environnemental et prendre des décisions éclairées concernant la gestion du jardin.
 
+## Architecture
+<br>
+![archiazproj drawio](https://github.com/EneruJ/azureproject/assets/62664268/4169c775-4911-4b3f-8e3c-a69980f07c8c)
+
+
+
 ## Étapes d'Implémentation
 ### 1. Configuration initiale
 a. Environnement Azure : Avant tout développement, un environnement Azure a été configuré pour permettre le déploiement et la mise en œuvre des services.
