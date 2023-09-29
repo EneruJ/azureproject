@@ -45,7 +45,8 @@ c. Vérification de la mise en ligne : Après le déploiement, des tests ont ét
 
 ## Fonctionnement
 Capture d'écran de l'API en action : 
-<img width="789" alt="image" src="https://github.com/EneruJ/azureproject/assets/62664268/400921f4-1ce4-42c5-b607-7b5f8cd56af9">
+<br>
+<img width="789" alt="image" src="https://github.com/EneruJ/azureproject/assets/62664268/400921f4-1ce4-42c5-b607-7b5f8cd56af9"><br>
 Lien actif vers l'API : https://azprojweather.azurewebsites.net/
 
 
