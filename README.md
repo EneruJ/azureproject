@@ -38,4 +38,9 @@ b. Mise en ligne de l'API : L'API a été déployée sur l'App Service d'Azure �
 
 c. Vérification de la mise en ligne : Après le déploiement, des tests ont été effectués pour s'assurer que l'API était fonctionnelle et accessible en ligne.
 
+## Dépendances
+Flask: pour le développement de l'API.
+Locust: pour les tests de performance.
+Azure: pour le déploiement et l'hébergement.
+
 
