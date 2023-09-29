@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2023-09-29T08:52:01.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" version="22.0.0" etag="NR_nvxb5sAc40EEAsOUb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-29T09:18:20.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="PZwqmb6RCdDGhJX4T3qe" version="22.0.0" type="github">
   <diagram name="Page-1" id="BJGrDA5BHudWndHW2Dt7">
-    <mxGraphModel>
+    <mxGraphModel dx="1961" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-259" y="105" width="360" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-8" value="Utilisateur" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-229" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-9" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.mobile;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="150" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-10" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.laptop;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="160" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.381;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DqKZ-ZXnVAxiEbBMPfqt-6" target="DqKZ-ZXnVAxiEbBMPfqt-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-79" y="270" as="sourcePoint" />
+            <mxPoint x="181" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-13" value="https://azprojweather.azurewebsites.net/" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-239" y="360" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-18" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-169" y="440" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-20" value="App Services" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="578" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-22" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="225" y="440" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-23" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/CosmosDB.svg;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-24" value="CosmosDB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="578" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-25" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-26" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Function_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="669.48" y="480" width="81.03" height="71.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-27" value="Azure Function" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="578" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-28" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="-119.5" y="480" width="81" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="DqKZ-ZXnVAxiEbBMPfqt-22" target="DqKZ-ZXnVAxiEbBMPfqt-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="390" as="sourcePoint" />
+            <mxPoint x="250" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="DqKZ-ZXnVAxiEbBMPfqt-18" target="DqKZ-ZXnVAxiEbBMPfqt-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="390" as="sourcePoint" />
+            <mxPoint x="250" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.627;entryY=1.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DqKZ-ZXnVAxiEbBMPfqt-18" target="DqKZ-ZXnVAxiEbBMPfqt-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="390" as="sourcePoint" />
+            <mxPoint x="250" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-33" value="Contenu" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-34" value="Envoi des données météorologiques" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="450" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DqKZ-ZXnVAxiEbBMPfqt-25" target="DqKZ-ZXnVAxiEbBMPfqt-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="390" as="sourcePoint" />
+            <mxPoint x="250" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-36" value="Envoi périodique de données météorologiques" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="490" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DqKZ-ZXnVAxiEbBMPfqt-37" value="Requête (données)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="585" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
