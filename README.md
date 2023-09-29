@@ -54,6 +54,9 @@ Lien actif vers l'API : https://azprojweather.azurewebsites.net/
 <br>
 <img width="789" alt="image" src="https://github.com/EneruJ/azureproject/assets/62664268/f0e1bc80-dd86-46d0-81d5-7dc07fe31ee2">
 
+### Templates des outils Azure disponibles sur le /templates
+
+
 
 
 
