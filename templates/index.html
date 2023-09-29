@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Weather Data</h1>
+    <h1>Données météo de mon Jardin</h1>
     <table>
         <tr>
-            <th>Title</th>
             <th>Temperature</th>
-            <th>Humidity</th>
+            <th>Humidité</th>
         </tr>
         {% for entry in data %}
         <tr>
